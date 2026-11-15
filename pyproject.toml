@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "runconvert"
+version = "0.1.0"
+description = "Official RunConvert SDK for Python: convert files between 240+ formats"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.8"
+dependencies = []
+keywords = ["runconvert", "file converter", "convert", "pdf", "video", "image", "api", "sdk"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Typing :: Typed",
+  "Private :: Do Not Upload",
+]
+
+[project.urls]
+Homepage = "https://www.runconvert.com"
+Documentation = "https://www.runconvert.com/docs"
+Source = "https://github.com/runconvert/runconvert-python"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+runconvert = ["py.typed"]
