@@ -1,7 +1,7 @@
 # RunConvert SDK for Python
 
 Convert files between 240+ formats (3,000+ conversions) with the [RunConvert API](https://www.runconvert.com/docs):
-documents, images, video, audio, ebooks, archives, fonts and CAD. Python 3.8+, no dependencies.
+documents, images, video, audio, ebooks, archives, fonts and CAD. Python 3.10+, no dependencies.
 
 ```bash
 pip install runconvert
