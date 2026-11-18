@@ -17,7 +17,7 @@ from typing import Any, BinaryIO, Callable, Dict, Iterator, List, Optional, Unio
 from . import webhooks as _webhooks
 from .errors import JobFailedError, RunConvertError, WaitTimeoutError
 
-__version__ = "0.1.0"
+__version__ = "0.1.0"  # x-release-please-version
 
 DEFAULT_BASE_URL = "https://api.runconvert.com/v3"
 _RETRY_STATUS = {408, 425, 429, 500, 502, 503, 504}
